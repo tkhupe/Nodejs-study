@@ -79,7 +79,7 @@ logger.on('messageLogged', (arg) => {
             res.end();
         }
 
-        if (req.url === 'api/courses') {
+        if (req.url === '/api/courses') {
             res.write(JSON.stringify([1, 2, 3]));
             res.end();
         }
